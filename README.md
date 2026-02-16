@@ -4,7 +4,7 @@ AutoHitter is a browser extension that simulates auto-filling forms with data,
  It's not for real use and includes obvious indicators to avoid confusion.
  # Features
 Auto-fills  details (e.g., "Name123" CVVs, random names). Captcha solver with
-images .Button auto-clicker with delay timing.Works on Chrome/Kiwi browsers via unpacked 
+images.Button auto-clicker with delay timing.Works on Chrome/Kiwi browsers via unpacked 
 extension.InstallationDownload ZIP from Releases.Open Chrome://extensions (PC) or Kiwi (mobile).Enable Developer mode, then "Load unpacked" and select the folder.
  # Usage
 Pin the extension popup.Input BINs, CCs, usernames.
