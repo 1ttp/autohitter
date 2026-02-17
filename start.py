@@ -20,13 +20,13 @@ async def start_handler(msg: Message):
     if not check_access(msg):
         await msg.answer(
             "<blockquote><code>𝗔𝗰𝗰𝗲𝘀𝘀 𝗗𝗲𝗻𝗶𝗲𝗱 ❌</code></blockquote>\n\n"
-            "<blockquote>「❃」 𝗝𝗼𝗶𝗻 𝘁𝗼 𝘂𝘀𝗲 : <code>@proscraperbot</code></blockquote>",
+            "<blockquote>「❃」 𝗝𝗼𝗶𝗻 𝘁𝗼 𝘂𝘀𝗲 : <code>@greedautohitterbot</code></blockquote>",
             parse_mode=ParseMode.HTML
         )
         return
     
     welcome = (
-        "<blockquote><code>𝗩𝗶𝗰𝘁𝘂𝘀 𝗧𝗼𝗼𝗹𝘀 ⚡</code></blockquote>\n\n"
+        "<blockquote><code>Greed Portal ⚡</code></blockquote>\n\n"
         "<blockquote>「❃」 𝗖𝗵𝗲𝗰𝗸𝗼𝘂𝘁 𝗣𝗮𝗿𝘀𝗲𝗿\n"
         "    • <code>/co url</code> - Parse Stripe Checkout\n"
         "    • <code>/co url cc|mm|yy|cvv</code> - Charge Card</blockquote>\n\n"
