@@ -33,7 +33,7 @@ async def start_handler(msg: Message):
         "<blockquote>「❃」 𝗦𝘂𝗽𝗽𝗼𝗿𝘁𝗲𝗱 𝗨𝗥𝗟𝘀\n"
         "    • <code>checkout.stripe.com</code>\n"
         "    • <code>buy.stripe.com</code></blockquote>\n\n"
-        "<blockquote>「❃」 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 : <code>@victus_xd</code></blockquote>"
+        "<blockquote>「❃」 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 : <code>@greedogu</code></blockquote>"
     )
     await msg.answer(welcome, parse_mode=ParseMode.HTML)
 
@@ -42,7 +42,7 @@ async def help_handler(msg: Message):
     if not check_access(msg):
         await msg.answer(
             "<blockquote><code>𝗔𝗰𝗰𝗲𝘀𝘀 𝗗𝗲𝗻𝗶𝗲𝗱 ❌</code></blockquote>\n\n"
-            "<blockquote>「❃」 𝗝𝗼𝗶𝗻 𝘁𝗼 𝘂𝘀𝗲 : <code>@proscraperbot</code></blockquote>",
+            "<blockquote>「❃」 𝗝𝗼𝗶𝗻 𝘁𝗼 𝘂𝘀𝗲 : <code>@greedautohitterbot</code></blockquote>",
             parse_mode=ParseMode.HTML
         )
         return
